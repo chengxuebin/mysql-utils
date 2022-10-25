@@ -63,7 +63,7 @@ def DecryptFile(file_path, master_key, version, page):
     print(table_key.hex())
     print(title_format.format("iv"))
     print(iv_cipher.hex())
-    print(title_format.format("--> real key"))
+    print(title_format.format("--> real iv"))
     print(iv.hex())
 
     # Read the first N bytes
